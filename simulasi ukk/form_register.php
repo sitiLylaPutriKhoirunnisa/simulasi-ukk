@@ -44,6 +44,7 @@ label{
    
     border-radius: 3px;
     padding: 10px 20px;
+    margin-top: 20px ;
 }
 
 
@@ -51,19 +52,27 @@ label{
 </head>
 <body>
     <div class="login">
-    <form action="login.php" method="post">
-        <h1>FORM LOGIN</h1>
+    <form action="proses_register.php" method="post">
+
+    <?php if(isset($_GET['error'])) :?>
+            <div class="alert alert-danger" role="alert">
+                <p><?= $_GET['error']?></p>
+            </div>
+            <?php endif ?>
+
+        <h1>FORM REGISTER</h1>
         
         <label>
             Username : 
-            <input type="text" name="username" id="" class="form_login" placeholder="id">
+            <input type="text" name="username" id="" class="form_login" placeholder="username">
         </label>
         <label>
-           Password : 
+            Password : 
            <input type="password" name="password" id="" class="form_login" placeholder="password">
         </label>
-        
-        <button type="submit" class="tombol">Login</button>
+       
+        <a href="formlogin.php" class="tombol">Login</a>
+        <button type="submit" class="tombol">Daftar</button>
     </form>
 </div>
 </body>
