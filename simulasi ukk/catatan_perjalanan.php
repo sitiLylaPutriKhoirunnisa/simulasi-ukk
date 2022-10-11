@@ -38,7 +38,7 @@
 <h2>PEDULI DIRI</h2>
     <a href="Home.php">Home</a>|
     <a href="catatan_perjalanan.php">Catatan Perjalanan</a>|
-    <a href="formlogin.php">Isi Data</a>
+    <a href="form_catatan_perjalanan.php">Isi Data</a>
 <form>
     <div class="select">
         <span>Urut Berdasarkan</span>

@@ -16,31 +16,45 @@
       
         
         div{
-            width: 300px;
-            border: 3px solid black;
-            padding: 50px;
+            width: 330px;
+            border-style: dashed;
+            padding: 40px;
             margin: 30px;
-
-           
         }
         .container {
-            border: 1px solid black;
+            border: none;
             text-align: center;
         }
         .selamat {
             margin: 0 auto;
         }
+        p {
+   
+            text-align: left;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            padding-left: 380px;
+            padding-top: 20px;
+            
+        }
+        
     </style>
 </head>
 <body>
-   <div class="container ">
+    
+    <div class="container ">
+    <span class="logo">
+    <p>
+    <img src="img/logo2.jpg" width="100" height="100" alt="logo">
+    </p>
+    </span>
     <h2>PEDULI DIRI</h2>
     <a href="Home.php">Home</a>|
     <a href="catatan_perjalanan.php">Catatan Perjalanan</a>|
     <a href="form_catatan_perjalanan.php">Isi Data</a>
 
-    <div class="selamat">Selamat Datang Lyla di Peduli diri</div>
-        <b>
+    <div class="selamat">Selamat Datang di Peduli diri</div>
+        
         <a href="hapus_login.php" class="btn btn-primary mt-5">Logout</a>
         <a href="form_register.php" class="btn btn-primary mt-5">Daftar</a>
 

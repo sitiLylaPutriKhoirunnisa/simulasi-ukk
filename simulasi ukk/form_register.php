@@ -9,46 +9,46 @@
 
 <html lang="en">
 <head>
-    <title>Document</title>
-    <style>
-body {
-    font-family: sans-serif;
-    background-color: aqua;
-}
-.h1{
-    text-align: center;
-    font-weight: 300;
-}
-.login{
-    width: 350px;
-    background: white;
-    margin: 80px auto;
-    padding: 30px 20px;
-}
-label{
-    font-size: 11pt;
-}
-.form_login{
-    box-sizing: border-box;
-    width: 100%;
-    padding: 10px;
-    font-size: 11pt;
-    margin-bottom: 20px;
-}
-.tombol{
-    background: rgb(22, 139, 130);
-    color: white;
-    font-size: 11pt;
-    width: 100%;
-    border: none;
-   
-    border-radius: 3px;
-    padding: 10px 20px;
-    margin-top: 20px ;
-}
+<title>Document</title>
+<style>
+    body {
+        font-family: sans-serif;
+        background-color: aqua;
+    }
+    .h1{
+        text-align: center;
+        font-weight: 300;
+    }
+    .login{
+        width: 350px;
+        background: white;
+        margin: 80px auto;
+        padding: 30px 20px;
+    }
+    label{
+        font-size: 11pt;
+    }
+    .form_login{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px;
+        font-size: 11pt;
+        margin-bottom: 20px;
+    }
+    .tombol{
+        background: rgb(22, 139, 130);
+        color: white;
+        font-size: 11pt;
+        width: 90%;
+        border: none;
+        
+        border-radius: 3px;
+        padding: 10px 20px;
+        margin-top: 20px ;
+    }
 
 
-    </style>
+</style>
 </head>
 <body>
     <div class="login">
