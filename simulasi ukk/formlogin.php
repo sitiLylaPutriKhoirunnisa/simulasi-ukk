@@ -10,7 +10,7 @@
 <html lang="en">
 <head>
     <title>Document</title>
-    <style>
+<style>
 body {
     font-family: sans-serif;
     background-color: aqua;
@@ -47,7 +47,7 @@ label{
 }
 
 
-    </style>
+</style>
 </head>
 <body>
     <div class="login">
@@ -56,7 +56,7 @@ label{
         
         <label>
             Username : 
-            <input type="text" name="username" id="" class="form_login" placeholder="id">
+            <input type="text" name="username" id="" class="form_login" placeholder="username">
         </label>
         <label>
            Password : 

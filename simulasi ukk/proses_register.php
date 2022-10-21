@@ -3,7 +3,7 @@
 
 
          $username = htmlentities(trim($_POST['username']));
-         $password = $_POST['password'];
+         $password = password_hash($_POST['password'], PASSWORD_DEFAULT) ;
          $pesan_error="";
 
          if(empty($username)){
@@ -16,6 +16,7 @@
 
    $database = new PDO("mysql:host=localhost;dbname=perjalanan_db",'root','');
    $query = $database->query("insert into login values('','$username','$password')");
+   
    $data = $query->fetch();
 
    if($query->rowCount() > 0){

@@ -4,4 +4,4 @@ session_start();
 
 session_destroy();
 
-echo ("Anda Telah Logout");
+header("location:login.php");

@@ -10,7 +10,7 @@
 
 
     if(isset($_GET['urut'])){ 
-        $urut = $_GET['urut'];
+    $urut = $_GET['urut'];
     $query = $koneksi->query("select * from perjalanan order by $urut asc");
 }
 
@@ -56,6 +56,8 @@
         <td>Waktu</td>
         <td>Lokasi</td>
         <td>Suhu</td>
+        <td>Akses</td>
+        
     </tr>
         <?php
         while ($data = $query->fetch()){ ?>
@@ -64,6 +66,9 @@
         <td><?php echo $data["waktu"] ?></td>
         <td><?php echo $data["lokasi"]?></td>
         <td><?php echo $data["suhu"]?></td>
+        <td><a href="form_update.php?id_perjalanan=<?= $data['id_perjalanan']?>" class="btn btn-success btn-sm">Update </a>
+            <a href="proses_hapus.php?id_perjalanan=<?= $data['id_perjalanan']?>" class="btn btn-danger btn-sm">Delete</a>
+        </td>
     </tr>
     <?php } ?>
     </table>

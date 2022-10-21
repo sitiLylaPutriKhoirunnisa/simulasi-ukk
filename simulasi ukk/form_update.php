@@ -41,35 +41,20 @@ label{
     padding: 10px 20px;
 }
 
-.alert-danger{
-    background-color: red;
-    color:white;
-    padding:5px;
-    text-align: center;
-}
-
 
     </style>
 </head>
 <body>
     <div class="perjalanan">
-        <form action="proses_isicatatan.php" method="post">
+        <form action="proses_update.php" method="post">
 
-        <?php if(isset($_GET["error"])) :?>
-            <div class="alert alert-danger" role="alert">
-                <p><?= $_GET['error']?></p>
-            </div>
-            <?php endif ?>
-            <h2>Catatan Perjalanan</h2>
+        
+            <h2>UPDATE</h2>
 
-            <label>
-                Tanggal:
-                <input type="date" name="tanggal" class="form_catatan" placeholder="tanggal" required>
-            </label>
-            <label>
-                Waktu:
-                <input type="time" name="waktu" class="form_catatan" placeholder="waktu" required>
-            </label>
+            <input type="hidden" name="id_perjalanan"
+        value="<?= $_GET['id_perjalanan'] ?>" >
+
+           
             <label>
                 Lokasi :
                 <input type="text" name="lokasi" class="form_catatan" placeholder="lokasi" required>

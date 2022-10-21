@@ -35,7 +35,6 @@
             margin-bottom: 1rem;
             padding-left: 380px;
             padding-top: 20px;
-            
         }
         
     </style>
@@ -56,7 +55,7 @@
     <div class="selamat">Selamat Datang di Peduli diri</div>
         
         <a href="hapus_login.php" class="btn btn-primary mt-5">Logout</a>
-        <a href="form_register.php" class="btn btn-primary mt-5">Daftar</a>
+        
 
         </b>
     
