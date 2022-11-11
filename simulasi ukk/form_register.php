@@ -39,7 +39,7 @@
         background: rgb(22, 139, 130);
         color: white;
         font-size: 11pt;
-        width: 90%;
+        width: 100%;
         border: none;
         
         border-radius: 3px;
@@ -69,6 +69,10 @@
         <label>
             Password : 
            <input type="password" name="password" id="" class="form_login" placeholder="password">
+        </label>
+        <label>
+            Foto:
+            <input type="url" name="foto" class="form_login" id="" placeholder="foto">
         </label>
        
         <a href="formlogin.php" class="tombol">Login</a>

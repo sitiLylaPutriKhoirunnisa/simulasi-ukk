@@ -13,27 +13,31 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <style>
+        
       
         
         div{
-            width: 330px;
+            width: 350px;
             border-style: dashed;
             padding: 40px;
             margin: 30px;
+          
         }
         .container {
             border: none;
             text-align: center;
+         
         }
         .selamat {
             margin: 0 auto;
+          
         }
-        p {
+        .logo{
    
             text-align: left;
             margin-top: 0;
             margin-bottom: 1rem;
-            padding-left: 380px;
+            padding-left: 0px;
             padding-top: 20px;
         }
         
@@ -43,14 +47,15 @@
     
     <div class="container ">
     <span class="logo">
-    <p>
+    
     <img src="img/logo2.jpg" width="100" height="100" alt="logo">
-    </p>
+    
     </span>
     <h2>PEDULI DIRI</h2>
     <a href="Home.php">Home</a>|
     <a href="catatan_perjalanan.php">Catatan Perjalanan</a>|
-    <a href="form_catatan_perjalanan.php">Isi Data</a>
+    <a href="form_catatan_perjalanan.php">Isi Data</a>|
+    <a href="register.php">Data Pengguna</a>
 
     <div class="selamat">Selamat Datang di Peduli diri</div>
         
